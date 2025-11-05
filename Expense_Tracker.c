@@ -11,7 +11,7 @@ void showall(){
     }
     else{
         for(int i=0;i<count;i++){
-            printf("\n\n%s\t",category[i]);
+            printf("\n%s\t",category[i]);
             printf("%d\n",amount[i]);
         }
     }
